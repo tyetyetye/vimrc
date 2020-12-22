@@ -29,7 +29,11 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+"colorscheme purify
+"colorscheme focuspoint
+"colorscheme onedark
+"colorscheme sonokai 
+colorscheme spacecamp
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
