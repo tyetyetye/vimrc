@@ -33,7 +33,7 @@ set background=dark
 "colorscheme focuspoint
 "colorscheme onedark
 "colorscheme sonokai 
-colorscheme spacecamp
+"colorscheme spacecamp
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
