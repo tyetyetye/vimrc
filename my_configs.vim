@@ -1,11 +1,11 @@
 " Colorscheme
 "set background=dark
-colorscheme purify
+"colorscheme purify
 "colorscheme focuspoint
 "colorscheme onedark
 "colorscheme sonokai
 "colorscheme spacecamp
-
+colorscheme peaksea
 
 " Kitty support
 let &t_ut=''
