@@ -9,7 +9,7 @@ colorscheme purify
 
 "tmux italics support
 set t_ZH=[3m
-set t_ZR=[23m
+"set t_ZR=[23m
 
 " Kitty support
 let &t_ut=''
