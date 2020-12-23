@@ -62,6 +62,7 @@ focuspoint-vim https://github.com/chase/focuspoint-vim
 purify https://github.com/kyoz/purify/vim
 sonokai https://github.com/sainnhe/sonokai
 SpaceCamp https://github.com/jaredgorski/SpaceCamp
+Zenburn https://github.com/jnurmine/zenburn
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

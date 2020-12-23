@@ -1,15 +1,16 @@
 " Colorscheme
 set background=dark
-colorscheme purify
+"colorscheme purify
 "colorscheme focuspoint
 "colorscheme onedark
 "colorscheme sonokai
 "colorscheme spacecamp
 "colorscheme peaksea
+colors zenburn
 
 "tmux italics support
-set t_ZH=[3m
-set t_ZR=[23m
+"set t_ZH=[3m
+"set t_ZR=[23m
 
 " Kitty support
 let &t_ut=''
