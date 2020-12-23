@@ -16,9 +16,9 @@ endif
 
 set background=dark
 
-if &term == 'screen'
-  set t_Co=256
-endif
+"if &term == 'screen'
+"  set t_Co=256
+"endif
 
 let g:colors_name = 'purify'
 

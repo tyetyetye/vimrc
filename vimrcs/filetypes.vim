@@ -64,7 +64,8 @@ if exists('$TMUX')
         set termguicolors
     else
         set term=screen-256color 
-    endif
+        "set termguicolors
+        endif
 endif
 
 
