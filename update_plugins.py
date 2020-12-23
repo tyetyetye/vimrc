@@ -59,7 +59,6 @@ vim-javascript https://github.com/pangloss/vim-javascript
 vim-python-pep8-indent https://github.com/Vimjas/vim-python-pep8-indent
 onedark.vim https://github.com/joshdick/onedark.vim
 focuspoint-vim https://github.com/chase/focuspoint-vim
-purify https://github.com/kyoz/purify
 sonokai https://github.com/sainnhe/sonokai
 SpaceCamp https://github.com/jaredgorski/SpaceCamp
 """.strip()

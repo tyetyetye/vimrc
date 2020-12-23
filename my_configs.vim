@@ -11,3 +11,11 @@ else
     let &t_ti = &t_ti . "\033]10;#f6f3e8\007\033]11;#242424\007"
     let &t_te = &t_te . "\033]110\007\033]111\007"
 endif
+
+" Colorscheme
+set background=dark
+"colorscheme purify
+"colorscheme focuspoint
+colorscheme onedark
+"colorscheme sonokai
+"colorscheme spacecamp

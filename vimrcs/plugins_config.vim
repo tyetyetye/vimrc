@@ -13,7 +13,7 @@ call pathogen#infect(s:vim_runtime.'/sources_forked/{}')
 call pathogen#infect(s:vim_runtime.'/sources_non_forked/{}')
 call pathogen#infect(s:vim_runtime.'/my_plugins/{}')
 call pathogen#helptags()
-
+" TODO: add themes directory, modify update_plugins.py
 
 """"""""""""""""""""""""""""""
 " => bufExplorer plugin
