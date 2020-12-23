@@ -1,3 +1,12 @@
+" Colorscheme
+"set background=dark
+colorscheme purify
+"colorscheme focuspoint
+"colorscheme onedark
+"colorscheme sonokai
+"colorscheme spacecamp
+
+
 " Kitty support
 let &t_ut=''
 
@@ -12,10 +21,3 @@ else
     let &t_te = &t_te . "\033]110\007\033]111\007"
 endif
 
-" Colorscheme
-set background=dark
-"colorscheme purify
-"colorscheme focuspoint
-colorscheme onedark
-"colorscheme sonokai
-"colorscheme spacecamp

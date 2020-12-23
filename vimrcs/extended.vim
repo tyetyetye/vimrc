@@ -27,15 +27,6 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
-" Colorscheme
-"set background=dark
-"colorscheme purify
-"colorscheme focuspoint
-"colorscheme onedark
-"colorscheme sonokai 
-"colorscheme spacecamp
-
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
