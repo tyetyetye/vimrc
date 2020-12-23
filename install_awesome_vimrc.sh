@@ -15,4 +15,7 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+echo "Updating plugins..."
+python3 ~/.vim_runtime/update_plugins.py
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
