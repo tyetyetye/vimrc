@@ -31,7 +31,7 @@ set guioptions-=L
 set background=dark
 "colorscheme purify
 "colorscheme focuspoint
-"colorscheme onedark
+colorscheme onedark
 "colorscheme sonokai 
 "colorscheme spacecamp
 
