@@ -61,7 +61,7 @@ let s:colors = {
     \ 'gutter_grey_fg': get(s:override_colors, 'gutter_grey_fg', { 'gui': '#4B5263', 'cterm': '238' }),
     \ 'blur_grey':      get(s:override_colors, 'blur_grey',      { 'gui': '#3B4048', 'cterm': '238' }),
     \ 'menu_grey':      get(s:override_colors, 'menu_grey',      { 'gui': '#3E4452', 'cterm': '237' }),
-    \ 'visual_blue':    get(s:override_colors, 'visual_blue',    { 'gui': '#3E4452', 'cterm': '18' }),
+    \ 'visual_blue':    get(s:override_colors, 'visual_blue',    { 'gui': '#3E4452', 'cterm': '21' }),
     \ 'visual_black':   get(s:override_colors, 'visual_black',   { 'gui': 'NONE', 'cterm': 'NONE' }),
     \ 'none':           get(s:override_colors, 'none',           { 'gui': 'NONE', 'cterm': 'NONE' })
 \ }
