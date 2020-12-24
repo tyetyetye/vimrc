@@ -38,6 +38,11 @@
 
 " }}}
 
+" old color settings
+"\ 'comment_grey':   get(s:override_colors, 'comment_grey',   { 'gui': '#5F5F87', 'cterm': '61' }),
+"\ 'visual_grey':    get(s:override_colors, 'visual_grey',    { 'gui': '#3E4452', 'cterm': '237' }),
+
+
 let s:override_colors = get(g:, 'purify_override_colors', {})
 
 let s:colors = {
@@ -51,12 +56,12 @@ let s:colors = {
     \ 'salmon':         get(s:override_colors, 'salmon',         { 'gui': '#FF875F', 'cterm': '209' }),
     \ 'purple':         get(s:override_colors, 'purple',         { 'gui': '#AF87FF', 'cterm': '141' }),
     \ 'dark_yellow':    get(s:override_colors, 'dark_yellow',    { 'gui': '#D19A66', 'cterm': '173' }),
-    \ 'comment_grey':   get(s:override_colors, 'comment_grey',   { 'gui': '#5F5F87', 'cterm': '61' }),
+    \ 'comment_grey':   get(s:override_colors, 'comment_grey',   { 'gui': '#5F5F87', 'cterm': '243' }),
     \ 'cursor_grey':    get(s:override_colors, 'cursor_grey',    { 'gui': '#2C323C', 'cterm': '236' }),
     \ 'gutter_grey_fg': get(s:override_colors, 'gutter_grey_fg', { 'gui': '#4B5263', 'cterm': '238' }),
     \ 'blur_grey':      get(s:override_colors, 'blur_grey',      { 'gui': '#3B4048', 'cterm': '238' }),
     \ 'menu_grey':      get(s:override_colors, 'menu_grey',      { 'gui': '#3E4452', 'cterm': '237' }),
-    \ 'visual_grey':    get(s:override_colors, 'visual_grey',    { 'gui': '#3E4452', 'cterm': '237' }),
+    \ 'visual_blue':    get(s:override_colors, 'visual_blue',    { 'gui': '#3E4452', 'cterm': '18' }),
     \ 'visual_black':   get(s:override_colors, 'visual_black',   { 'gui': 'NONE', 'cterm': 'NONE' }),
     \ 'none':           get(s:override_colors, 'none',           { 'gui': 'NONE', 'cterm': 'NONE' })
 \ }

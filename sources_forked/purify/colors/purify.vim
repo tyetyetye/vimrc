@@ -44,7 +44,7 @@ let s:cursor_grey = s:colors.cursor_grey
 let s:gutter_grey_fg = s:colors.gutter_grey_fg
 let s:blur_grey = s:colors.blur_grey
 let s:menu_grey = s:colors.menu_grey
-let s:visual_grey = s:colors.visual_grey
+let s:visual_blue = s:colors.visual_blue
 let s:visual_black = s:colors.visual_black
 let s:none = s:colors.none
 
@@ -197,8 +197,8 @@ call s:hi('TabLine',      { 'fg': s:comment_grey })
 call s:hi('TabLineFill',  {})
 call s:hi('TabLineSel',   { 'fg': s:white })
 call s:hi('Title',        { 'fg': s:green })
-call s:hi('Visual',       { 'fg': s:visual_black, 'bg': s:visual_grey })
-call s:hi('VisualNOS',    { 'bg': s:visual_grey })
+call s:hi('Visual',       { 'fg': s:visual_black, 'bg': s:visual_blue })
+call s:hi('VisualNOS',    { 'bg': s:visual_blue })
 call s:hi('WarningMsg',   { 'fg': s:yellow })
 call s:hi('WildMenu',     { 'fg': s:black, 'bg': s:blue })
 

@@ -49,6 +49,7 @@ endtry
 " => Command mode related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Smart mappings on the command line
+" TODO: customize these
 cno $h e ~/
 cno $d e ~/Desktop/
 cno $j e ./
@@ -66,13 +67,14 @@ cnoremap <C-K>		<C-U>
 cnoremap <C-P> <Up>
 cnoremap <C-N> <Down>
 
+" idk what ½ is
 " Map ½ to something useful
-map ½ $
-cmap ½ $
-imap ½ $
+"map ½ $
+"cmap ½ $
+"imap ½ $
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Parenthesis/bracket
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vnoremap $1 <esc>`>a)<esc>`<i(<esc>
