@@ -5,6 +5,9 @@ colorscheme purify
 " Kitty support
 let &t_ut=''
 
+" Spell check
+set spell
+
 " General colors
 if has('gui_running') || has('nvim')
     hi Normal 		guifg=#f6f3e8 guibg=#242424
