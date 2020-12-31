@@ -2,6 +2,14 @@
 set background=dark
 colorscheme purify
 
+" Set indent
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+
+" Set number
+set number
+
 " Kitty support
 let &t_ut=''
 
