@@ -178,18 +178,42 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Rainbow parentheses
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+"au VimEnter * RainbowParenthesesToggle
+"au Syntax * RainbowParenthesesLoadRound
+"au Syntax * RainbowParenthesesLoadSquare
+"au Syntax * RainbowParenthesesLoadBraces
 
-let g:rbpt_colorpairs = [
-    \ ['blue',         'firebrick3'],
-    \ ['green',    'SeaGreen3'],
-    \ ['red',     'DarkOrchid3'],
-    \ ['gray',         'firebrick3'],
-    \ ['darkblue',   'RoyalBlue3'],
-    \ ['darkgreen', 'DarkOrchid3'],
-    \ ['darkred',    'firebrick3'],
-    \ ['white',         'firebrick3'],
-    \ ]
+"let g:rbpt_colorpairs = [
+"    \ ['blue',         'firebrick3'],
+"    \ ['green',    'SeaGreen3'],
+"    \ ['red',     'DarkOrchid3'],
+"    \ ['gray',         'firebrick3'],
+"    \ ['darkblue',   'RoyalBlue3'],
+"    \ ['darkgreen', 'DarkOrchid3'],
+"    \ ['darkred',    'firebrick3'],
+"    \ ['white',         'firebrick3'],
+"    \ ]
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Rainbow
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
+"\	'ctermfgs': ['lightblue', 'lightyellow', 'lightcyan', 'lightmagenta'],
+let g:rainbow_conf = {
+\	'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', 'firebrick'],
+\	'ctermfgs': ['white', 'lightblue', 'lightmagenta', 'red', 'lightgreen', 'lightcyan', 'grey', 'darkblue', 'darkmagenta', 'darkred', 'darkgreen', 'darkcyan'],
+\	'guis': [''],
+\	'cterms': [''],
+\	'operators': '_,_',
+\	'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
+\	'separately': {
+\		'*': {},
+\		'markdown': {
+\			'parentheses_options': 'containedin=markdownCode contained',
+\		},
+\		'vim': {
+\			'parentheses_options': 'containedin=vimFuncBody',
+\		},
+\		'css': 0,
+\	}
+\}
