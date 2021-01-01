@@ -178,7 +178,6 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Rainbow parentheses
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Rainbow parentheses
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
