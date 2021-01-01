@@ -174,3 +174,23 @@ let g:ale_lint_on_enter = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Rainbow parentheses
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+let g:rbpt_colorpairs = [
+    \ ['blue',         'firebrick3'],
+    \ ['green',    'SeaGreen3'],
+    \ ['red',     'DarkOrchid3'],
+    \ ['gray',         'firebrick3'],
+    \ ['darkblue',   'RoyalBlue3'],
+    \ ['darkgreen', 'DarkOrchid3'],
+    \ ['darkred',    'firebrick3'],
+    \ ['white',         'firebrick3'],
+    \ ]
