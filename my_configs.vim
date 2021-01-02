@@ -1,11 +1,19 @@
-" Custom bindings
-"
+"""""""""""""""""""
+" Custom bindings "
+"""""""""""""""""""
+
 " Indent
 map <leader>= mkgg=G'kzz
 " Comment code block
 " TODO check for filetype, making function to un-comment if first line is comment character
 map <leader>/ mk<C-v>}kI//<esc>'k
 map <leader>? mk<C-v>}klx<esc>'k
+" open next line, remove auto-comment
+map <leader>o o<esc>0D
+
+""""""""""""
+" Settings "
+""""""""""""
 
 " Colorscheme
 set background=dark
@@ -15,12 +23,6 @@ colorscheme purify
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-
-" Spell check
-"set spell
-
-" Set number
-"set number
 
 " Kitty support
 let &t_ut=''
