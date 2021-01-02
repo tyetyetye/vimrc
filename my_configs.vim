@@ -9,11 +9,12 @@ map <leader>= mkgg=G'kzz
 map <leader>/ mk<C-v>}kI//<esc>'k
 map <leader>? mk<C-v>}klx<esc>'k
 " open next line, remove auto-comment
-map <leader>o o<esc>0D
+map <leader>o o<esc>0Di
 
 """"""""""""
 " Settings "
 """"""""""""
+"
 
 " Colorscheme
 set background=dark
