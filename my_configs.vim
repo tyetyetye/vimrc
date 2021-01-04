@@ -9,7 +9,7 @@ map <leader>= mkgg=G'kzz
 map <leader>/ mk<C-v>}kI//<esc>'k
 map <leader>? mk<C-v>}klx<esc>'k
 " open next line, remove auto-comment
-map <leader>o o<esc>0Di
+map <leader>o o<esc>bcw
 
 """"""""""""
 " Settings "
